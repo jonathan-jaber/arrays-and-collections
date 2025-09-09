@@ -6,5 +6,8 @@ console.log(originalArray);
 console.log(newArray);
 let marioCharacters = ["mario", "luigi", "peach", "bowser", "yoshi"];
 marioCharacters.sort();
+for (let n of marioCharacters) {
+    console.log(n);
+}
 console.log(marioCharacters);
 //# sourceMappingURL=arrays.js.map

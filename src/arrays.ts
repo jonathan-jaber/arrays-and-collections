@@ -11,4 +11,8 @@ let marioCharacters: string[] = ["mario", "luigi", "peach", "bowser", "yoshi"];
 
 marioCharacters.sort();
 
+for(let n of marioCharacters){
+    console.log(n);
+}
+
 console.log(marioCharacters);
